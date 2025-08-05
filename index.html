@@ -8,29 +8,33 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<!-- <style>
-   @keyframes run {
+<style>
+   /* @keyframes run {
         from{
             transform: rotate(0deg);
         }to{
             transform: rotate(360deg);
         }
-   }
-</style> -->
+   } */
+    .card img:hover{
+        opacity: 0.8;
+    }
+</style> 
 <body>
    <!-- navbar -->
         <nav class="navbar py-0" style="position: sticky;z-index: 1050;top: 0;left: 0;right: 0;">
   <div class="container-fluid bg-warning px-5 py-3">
     <a class="navbar-brand" href="#" style="display: flex;">
-      <img style="width: 70px;height: 70px;border-radius: 50%;" src="./image/iman chomhuy.png">
-     <p style="margin-top: 20px;margin-left: 10px;"> Thunder Delivery</p>
+      <img style="width: 70px;height: 70px;border-radius: 50%;" src="./image/logo.png">
+     <p style="margin-top: 40px;margin-left: 2px;font-size: 10px;"> Thunder Delivery</p>
     </a>
   </div>
 </nav>
     <div class="container py-3">
-       <h3 style="text-transform: uppercase;font-size: 20px;text-align: center;">ingredient suplyer for customer</h3>
-       <p style="text-align: center;font-size: 15px;">Please you check ingredient on my website for suport your idear to find type of food we free delivery every ingredient for type of food</p>
+       <h3 style="text-transform: uppercase;font-size: 15px;text-align: center;">ingredient suplyer for customer</h3>
+       <p style="text-align: center;font-size: 13px;">Please you check ingredient on my website for suport your idear to find type of food we free delivery every ingredient for type of food</p>
     </div>
     <!-- promote website -->
      <div class="container-fluid">
@@ -44,7 +48,7 @@
         </div>
      </div>
      <!-- ingredient -->
-      <h3 style="text-align: center;text-transform: uppercase;font-size: 20px;margin-top: 10px;">click on food for order</h3>
+      <h3 style="text-align: center;text-transform: uppercase;font-size: 15px;margin-top: 10px;">click on food for order</h3>
       <div class="container mt-3">
         <div class="row gx-1">
             <div class="col-4">
@@ -56,22 +60,22 @@
                 </div>
             </div>
              <script>
-                    $(document).ready(function(){
-                        var slide = $('.chruk');
-                        var ind = 0;
-                        slide.hide();
-                        slide.eq(ind).show();
-                        function GetslideNext(){
-                            slide.eq(ind).hide();
-                            ind++;
-                            if(ind>1){
-                              ind=0;
-                            }
-                            slide.eq(ind).show();
+                $(document).ready(function () {
+                    var slide = $('.chruk');
+                    var ind = 0;
+                    slide.hide();
+                    slide.eq(ind).show();
+                    function GetslideNext() {
+                        slide.eq(ind).hide();
+                        ind++;
+                        if (ind > 1) {
+                            ind = 0;
                         }
-                        setInterval(GetslideNext,3000);
-                    })
-                </script>
+                        slide.eq(ind).show();
+                    }
+                    setInterval(GetslideNext, 3000);
+                })
+            </script>
             <div class="col-4">
                 <div class="card">
                      <a href="https://t.me/thunder_delivery1">
@@ -81,22 +85,22 @@
               </div>        
             </div>
              <script>
-                    $(document).ready(function(){
-                        var slide = $('.tea');
-                        var ind = 0;
-                        slide.hide();
-                        slide.eq(ind).show();
-                        function GetslideNext(){
-                            slide.eq(ind).hide();
-                            ind++;
-                            if(ind>1){
-                              ind=0;
-                            }
-                            slide.eq(ind).show();
+                $(document).ready(function () {
+                    var slide = $('.tea');
+                    var ind = 0;
+                    slide.hide();
+                    slide.eq(ind).show();
+                    function GetslideNext() {
+                        slide.eq(ind).hide();
+                        ind++;
+                        if (ind > 1) {
+                            ind = 0;
                         }
-                        setInterval(GetslideNext,3200);
-                    })
-                </script>
+                        slide.eq(ind).show();
+                    }
+                    setInterval(GetslideNext, 3200);
+                })
+            </script>
             <div class="col-4">
                 <div class="card">
                      <a href="https://t.me/thunder_delivery1">
@@ -106,24 +110,215 @@
               </div>   
             </div>
               <script>
-                    $(document).ready(function(){
-                        var slide = $('.man');
-                        var ind = 0;
-                        slide.hide();
-                        slide.eq(ind).show();
-                        function GetslideNext(){
-                            slide.eq(ind).hide();
-                            ind++;
-                            if(ind>1){
-                              ind=0;
-                            }
-                            slide.eq(ind).show();
+                $(document).ready(function () {
+                    var slide = $('.man');
+                    var ind = 0;
+                    slide.hide();
+                    slide.eq(ind).show();
+                    function GetslideNext() {
+                        slide.eq(ind).hide();
+                        ind++;
+                        if (ind > 1) {
+                            ind = 0;
                         }
-                        setInterval(GetslideNext,3400);
-                    })
-                </script>
+                        slide.eq(ind).show();
+                    }
+                    setInterval(GetslideNext, 3400);
+                })
+            </script>
         </div>
       </div>
+      <!-- 1 -->
+       <div class="container mt-2">
+        <div class="row gx-1">
+            <div class="col-6">
+                <div class="card">
+                    <a href="https://t.me/thunder_delivery1">
+                        <img class="koko" src="./image/koko.png" alt="" style="width: 100%;height: 100%;">
+                         <img class="koko" src="./image/ikoko.png" alt="" style="width: 100%;height: 100%;">
+                    </a>
+                </div>             
+                        <p>cambodia food</p>
+                    <div style="display: flex;justify-content: space-between;">
+                        <p style="font-weight: bold;color: red;">$5</p>
+                        <i class="fa-regular fa-heart" style="color: goldenrod;"></i>
+                    </div>
+                   
+            </div>
+            <script>
+                $(document).ready(function () {
+                    var slide = $('.koko');
+                    var ind = 0;
+                    slide.hide();
+                    slide.eq(ind).show();
+                    function GetslideNext() {
+                        slide.eq(ind).hide();
+                        ind++;
+                        if (ind > 1) {
+                            ind = 0;
+                        }
+                        slide.eq(ind).show();
+                    }
+                    setInterval(GetslideNext, 3500);
+                })
+            </script>
+            <div class="col-6">
+                 <div class="card">
+                    <a href="https://t.me/thunder_delivery1">
+                        <img class="mras" src="./image/sgogmras.png" alt="" style="width: 100%;height: 100%;">
+                         <img class="mras" src="./image/isgomras.png" alt="" style="width: 100%;height: 100%;">
+                    </a>
+                </div>             
+                        <p>cambodia food</p>
+                    <div style="display: flex;justify-content: space-between;">
+                        <p style="font-weight: bold;color: red;">$5</p>
+                        <i class="fa-regular fa-heart" style="color: goldenrod;"></i>
+                    </div>                
+            </div>
+             <script>
+                $(document).ready(function () {
+                    var slide = $('.mras');
+                    var ind = 0;
+                    slide.hide();
+                    slide.eq(ind).show();
+                    function GetslideNext() {
+                        slide.eq(ind).hide();
+                        ind++;
+                        if (ind > 1) {
+                            ind = 0;
+                        }
+                        slide.eq(ind).show();
+                    }
+                    setInterval(GetslideNext, 3300);
+                })
+            </script>
+        </div>
+       </div>
+       <!-- 2 -->
+        <div class="container mt-2">
+            <div class="row gx-1">
+                <div class="col-3">
+                    <div class="card">
+                        <a href="https://t.me/thunder_delivery1">
+                            <img class="chamisu" src="./image/chamisu.png" alt="" style="width: 100%;height: 100%;">
+                            <img class="chamisu" src="./image/ichamisu.png" alt="" style="width: 100%;height: 100%;">
+                        </a>
+                    </div>
+                      <p style="font-size: 11px;">cambodia food</p>
+                    <div style="display: flex;justify-content: space-between;">
+                        <p style="font-weight: bold;color: red;">$4.5</p>
+                        <i class="fa-regular fa-heart" style="color: goldenrod;"></i>
+                    </div>
+                </div>
+                 <script>
+                $(document).ready(function () {
+                    var slide = $('.chamisu');
+                    var ind = 0;
+                    slide.hide();
+                    slide.eq(ind).show();
+                    function GetslideNext() {
+                        slide.eq(ind).hide();
+                        ind++;
+                        if (ind > 1) {
+                            ind = 0;
+                        }
+                        slide.eq(ind).show();
+                    }
+                    setInterval(GetslideNext, 3200);
+                })
+            </script>
+                <div class="col-3">
+                    <div class="card">
+                        <a href="https://t.me/thunder_delivery1">
+                            <img class="chakdav" src="./image/chakdav.png" alt="" style="width: 100%;height: 100%;">
+                            <img class="chakdav" src="./image/ichakdav.png" alt="" style="width: 100%;height: 100%;">
+                        </a>
+                    </div>
+                      <p style="font-size: 11px;">cambodia food</p>
+                    <div style="display: flex;justify-content: space-between;">
+                        <p style="font-weight: bold;color: red;">$5.5</p>
+                        <i class="fa-regular fa-heart" style="color: goldenrod;"></i>
+                    </div>
+                </div>
+                <script>
+                 $(document).ready(function () {
+                    var slide = $('.chakdav');
+                    var ind = 0;
+                    slide.hide();
+                    slide.eq(ind).show();
+                    function GetslideNext() {
+                        slide.eq(ind).hide();
+                        ind++;
+                        if (ind > 1) {
+                            ind = 0;
+                        }
+                        slide.eq(ind).show();
+                    }
+                    setInterval(GetslideNext, 3330);
+                })
+            </script>
+                <div class="col-3">
+                    <div class="card">
+                        <a href="https://t.me/thunder_delivery1">
+                            <img class="kor" src="./image/kor trobang.png" alt="" style="width: 100%;height: 100%;">
+                            <img class="kor" src="./image/ikor trobang.png" alt="" style="width: 100%;height: 100%;">
+                        </a>
+                    </div>
+                      <p style="font-size: 11px;">cambodia food</p>
+                    <div style="display: flex;justify-content: space-between;">
+                        <p style="font-weight: bold;color: red;">$3.5</p>
+                        <i class="fa-regular fa-heart" style="color: goldenrod;"></i>
+                    </div>
+                </div>
+                 <script>
+                 $(document).ready(function () {
+                    var slide = $('.kor');
+                    var ind = 0;
+                    slide.hide();
+                    slide.eq(ind).show();
+                    function GetslideNext() {
+                        slide.eq(ind).hide();
+                        ind++;
+                        if (ind > 1) {
+                            ind = 0;
+                        }
+                        slide.eq(ind).show();
+                    }
+                    setInterval(GetslideNext, 3030);
+                })
+            </script>
+                <div class="col-3">
+                     <div class="card">
+                        <a href="https://t.me/thunder_delivery1">
+                            <img class="kuyteav" src="./image/kor koa.png" alt="" style="width: 100%;height: 100%;">
+                            <img class="kuyteav" src="./image/ikuy teav.png" alt="" style="width: 100%;height: 100%;">
+                        </a>
+                    </div>
+                      <p style="font-size: 11px;">cambodia food</p>
+                    <div style="display: flex;justify-content: space-between;">
+                        <p style="font-weight: bold;color: red;">$4.5</p>
+                        <i class="fa-regular fa-heart" style="color: goldenrod;"></i>
+                    </div>
+                </div>
+                  <script>
+                 $(document).ready(function () {
+                    var slide = $('.kuyteav');
+                    var ind = 0;
+                    slide.hide();
+                    slide.eq(ind).show();
+                    function GetslideNext() {
+                        slide.eq(ind).hide();
+                        ind++;
+                        if (ind > 1) {
+                            ind = 0;
+                        }
+                        slide.eq(ind).show();
+                    }
+                    setInterval(GetslideNext, 3405);
+                })
+            </script>
+            </div>
+        </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
